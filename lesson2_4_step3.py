@@ -2,7 +2,6 @@ from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
-import time
 
 try:
     browser = webdriver.Chrome("C:\python\chromedriver.exe")
@@ -16,9 +15,6 @@ try:
     message = browser.find_element_by_id("verify_message")
 
     assert "successful" in message.text
-
-
-
 
 finally:
     time.sleep(5)

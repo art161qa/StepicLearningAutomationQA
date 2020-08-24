@@ -1,3 +1,4 @@
-# StepicLearningAutomationQA
+﻿# StepicLearningAutomationQA
 For learning
 Тестовый коммит
+
